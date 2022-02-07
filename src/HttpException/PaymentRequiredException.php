@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class PaymentRequiredException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_PAYMENT_REQUIRED;
+    protected $statusCode = HttpStatus::STATUS_PAYMENT_REQUIRED;
 }

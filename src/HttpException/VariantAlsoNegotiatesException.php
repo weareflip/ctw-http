@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class VariantAlsoNegotiatesException extends AbstractServerErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_VARIANT_ALSO_NEGOTIATES;
+    protected $statusCode = HttpStatus::STATUS_VARIANT_ALSO_NEGOTIATES;
 }

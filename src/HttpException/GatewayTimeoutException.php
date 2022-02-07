@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class GatewayTimeoutException extends AbstractServerErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_GATEWAY_TIMEOUT;
+    protected $statusCode = HttpStatus::STATUS_GATEWAY_TIMEOUT;
 }

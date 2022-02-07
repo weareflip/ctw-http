@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class ServiceUnavailableException extends AbstractServerErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_SERVICE_UNAVAILABLE;
+    protected $statusCode = HttpStatus::STATUS_SERVICE_UNAVAILABLE;
 }

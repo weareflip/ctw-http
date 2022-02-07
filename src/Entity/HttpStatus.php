@@ -5,13 +5,13 @@ namespace Ctw\Http\Entity;
 
 class HttpStatus
 {
-    public int    $statusCode;
+    public $statusCode;
 
-    public string $name;
+    public $name;
 
-    public string $phrase;
+    public $phrase;
 
-    public string $exception;
+    public $exception;
 
-    public string $url;
+    public $url;
 }

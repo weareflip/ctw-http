@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class TooManyRequestsException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_TOO_MANY_REQUESTS;
+    protected $statusCode = HttpStatus::STATUS_TOO_MANY_REQUESTS;
 }

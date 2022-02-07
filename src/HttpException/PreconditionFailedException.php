@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class PreconditionFailedException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_PRECONDITION_FAILED;
+    protected $statusCode = HttpStatus::STATUS_PRECONDITION_FAILED;
 }

@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class TooEarlyException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_TOO_EARLY;
+    protected $statusCode = HttpStatus::STATUS_TOO_EARLY;
 }

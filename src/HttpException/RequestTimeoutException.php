@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class RequestTimeoutException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_REQUEST_TIMEOUT;
+    protected $statusCode = HttpStatus::STATUS_REQUEST_TIMEOUT;
 }

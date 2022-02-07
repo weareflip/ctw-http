@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class LengthRequiredException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_LENGTH_REQUIRED;
+    protected $statusCode = HttpStatus::STATUS_LENGTH_REQUIRED;
 }

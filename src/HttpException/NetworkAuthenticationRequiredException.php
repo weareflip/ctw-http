@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class NetworkAuthenticationRequiredException extends AbstractServerErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_NETWORK_AUTHENTICATION_REQUIRED;
+    protected $statusCode = HttpStatus::STATUS_NETWORK_AUTHENTICATION_REQUIRED;
 }

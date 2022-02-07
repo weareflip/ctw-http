@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class MisdirectedRequestException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_MISDIRECTED_REQUEST;
+    protected $statusCode = HttpStatus::STATUS_MISDIRECTED_REQUEST;
 }

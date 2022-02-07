@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class RequestUriTooLongException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_URI_TOO_LONG;
+    protected $statusCode = HttpStatus::STATUS_URI_TOO_LONG;
 }

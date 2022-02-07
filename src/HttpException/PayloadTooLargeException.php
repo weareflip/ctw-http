@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class PayloadTooLargeException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_PAYLOAD_TOO_LARGE;
+    protected $statusCode = HttpStatus::STATUS_PAYLOAD_TOO_LARGE;
 }

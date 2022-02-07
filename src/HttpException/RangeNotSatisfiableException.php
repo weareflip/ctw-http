@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class RangeNotSatisfiableException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_RANGE_NOT_SATISFIABLE;
+    protected $statusCode = HttpStatus::STATUS_RANGE_NOT_SATISFIABLE;
 }

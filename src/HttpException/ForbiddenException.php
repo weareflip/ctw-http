@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class ForbiddenException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_FORBIDDEN;
+    protected $statusCode = HttpStatus::STATUS_FORBIDDEN;
 }

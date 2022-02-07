@@ -11,9 +11,9 @@ class HttpStatus implements StatusCodeInterface
 {
     private const FILENAME = __DIR__ . '/../data/http-status.php';
 
-    private array $db;
+    private $db;
 
-    private int   $statusCode;
+    private   $statusCode;
 
     public function __construct(int $statusCode)
     {

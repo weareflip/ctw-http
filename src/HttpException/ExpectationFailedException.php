@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class ExpectationFailedException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_EXPECTATION_FAILED;
+    protected $statusCode = HttpStatus::STATUS_EXPECTATION_FAILED;
 }

@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class UnavailableForLegalReasonsException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_UNAVAILABLE_FOR_LEGAL_REASONS;
+    protected $statusCode = HttpStatus::STATUS_UNAVAILABLE_FOR_LEGAL_REASONS;
 }

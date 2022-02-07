@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class UnsupportedMediaTypeException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_UNSUPPORTED_MEDIA_TYPE;
+    protected $statusCode = HttpStatus::STATUS_UNSUPPORTED_MEDIA_TYPE;
 }

@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class BadGatewayException extends AbstractServerErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_BAD_GATEWAY;
+    protected $statusCode = HttpStatus::STATUS_BAD_GATEWAY;
 }

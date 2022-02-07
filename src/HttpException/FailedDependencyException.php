@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class FailedDependencyException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_FAILED_DEPENDENCY;
+    protected $statusCode = HttpStatus::STATUS_FAILED_DEPENDENCY;
 }

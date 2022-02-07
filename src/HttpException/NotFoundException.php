@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class NotFoundException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_NOT_FOUND;
+    protected $statusCode = HttpStatus::STATUS_NOT_FOUND;
 }

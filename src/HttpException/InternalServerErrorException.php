@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class InternalServerErrorException extends AbstractServerErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_INTERNAL_SERVER_ERROR;
+    protected $statusCode = HttpStatus::STATUS_INTERNAL_SERVER_ERROR;
 }

@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class UpgradeRequiredException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_UPGRADE_REQUIRED;
+    protected $statusCode = HttpStatus::STATUS_UPGRADE_REQUIRED;
 }

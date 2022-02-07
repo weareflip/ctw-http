@@ -7,5 +7,5 @@ use Ctw\Http\HttpStatus;
 
 class ConflictException extends AbstractClientErrorException
 {
-    protected int $statusCode = HttpStatus::STATUS_CONFLICT;
+    protected $statusCode = HttpStatus::STATUS_CONFLICT;
 }
